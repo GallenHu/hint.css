@@ -1,4 +1,4 @@
-/*! Hint.css - v2.6.0 - 2019-04-27
+/*! Hint.css - v2.6.0 - 2019-07-06
 * http://kushagragour.in/lab/hint/
 * Copyright (c) 2019 Kushagra Gour */
 
@@ -61,13 +61,15 @@
     border: 6px solid transparent;
     z-index: 1000001; }
   [class*="hint--"]:after {
-    background: #383838;
-    color: white;
-    padding: 8px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 4px;
+    padding: 8px 14px;
     font-size: 12px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 12px;
-    white-space: nowrap; }
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
   [class*="hint--"][aria-label]:after {
     content: attr(aria-label); }
   [class*="hint--"][data-hint]:after {
@@ -93,28 +95,28 @@
  * set default color for tooltip arrows
  */
 .hint--top-left:before {
-  border-top-color: #383838; }
+  border-top-color: #fff; }
 
 .hint--top-right:before {
-  border-top-color: #383838; }
+  border-top-color: #fff; }
 
 .hint--top:before {
-  border-top-color: #383838; }
+  border-top-color: #fff; }
 
 .hint--bottom-left:before {
-  border-bottom-color: #383838; }
+  border-bottom-color: #fff; }
 
 .hint--bottom-right:before {
-  border-bottom-color: #383838; }
+  border-bottom-color: #fff; }
 
 .hint--bottom:before {
-  border-bottom-color: #383838; }
+  border-bottom-color: #fff; }
 
 .hint--left:before {
-  border-left-color: #383838; }
+  border-left-color: #fff; }
 
 .hint--right:before {
-  border-right-color: #383838; }
+  border-right-color: #fff; }
 
 /**
  * top tooltip
@@ -383,7 +385,7 @@
 	 * tooltip body
 	 */ }
   [class*="hint--"]:after {
-    text-shadow: 0 -1px 0px black;
+    text-shadow: 0 -1px 0px #bfbfbf;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); }
 
 /**

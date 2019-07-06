@@ -61,12 +61,14 @@
 	 */
 	&:after {
 		background: $hintDefaultColor;
-		color: white;
+		color: #000;
+		border-radius: 4px;
 		padding: $hintVerticalPadding $hintHorizontalPadding;
 		font-size: $hintFontSize;
 		font-family: $hintFontFamily;
 		line-height: $hintFontSize; // Vertical centering.
 		white-space: nowrap; // Prevent breaking to new line.
+		box-shadow: 0 2px 4px rgba(0,0,0,.5);
 	}
 	// Always get content from aria-label attribute.
 	&[aria-label]:after {

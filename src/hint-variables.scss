@@ -13,7 +13,7 @@ $hintFontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 
 // paddings
 $hintVerticalPadding: 8px !default;
-$hintHorizontalPadding: 10px !default;
+$hintHorizontalPadding: 14px !default;
 
 // default tooltip height
 $hintTooltipHeight: $hintFontSize + 2 * $hintVerticalPadding !default;
@@ -49,7 +49,7 @@ $hintSizeLarge: 300px !default;
 
 // Various colors
 // Default color is blackish
-$hintDefaultColor: hsl(0, 0%, 22%) !default;
+$hintDefaultColor: #fff !default;
 
 // Error color
 $hintErrorColor: hsl(1, 40%, 50%) !default;

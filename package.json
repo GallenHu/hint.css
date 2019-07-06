@@ -11,6 +11,9 @@
 		"email": "chinchang457@gmail.com",
 		"url": "http://kushagragour.in"
 	},
+	"scripts": {
+		"release": "grunt deploy"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/chinchang/hint.css.git"
@@ -28,7 +31,7 @@
 		"hint"
 	],
 	"devDependencies": {
-		"grunt": "~0.4.1",
+		"grunt": "^1.0.4",
 		"grunt-contrib-concat": "~0.3.0",
 		"grunt-contrib-cssmin": "~0.12.3",
 		"grunt-contrib-watch": "~0.5.3",
